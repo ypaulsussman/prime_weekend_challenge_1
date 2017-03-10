@@ -11,7 +11,8 @@ Also on the DOM should be a display showing the number of people and which is be
 When a person is displayed, show their name (first & last) and their shout out. Only one person should be shown at any given time. 
 
 Possible look for the final application:
-http://i.imgur.com/UdFamjG.png
+
+(http://i.imgur.com/9Dkkrci.png)
 
 ###HARD MODE
 Include a fade out and fade in animation in-between transitioning people.
