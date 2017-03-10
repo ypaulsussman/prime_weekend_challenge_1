@@ -12,7 +12,7 @@ When a person is displayed, show their name (first & last) and their shout out. 
 
 Possible look for the final application:
 
-(http://i.imgur.com/9Dkkrci.png)
+http://i.imgur.com/9Dkkrci.png
 
 ###HARD MODE
 Include a fade out and fade in animation in-between transitioning people.
