@@ -55,20 +55,33 @@ function addEventListener() {
   $(".container").on("click", "#nextButton", function moveNext() {
     if (index<max) {
       index++;
-      $('.select-name').fadeOut();
-      $('.select-shout').fadeOut();
-      $('.select-tally').fadeOut();
-      $('.select-name').removeClass('select-name');
-      $('.select-shout').removeClass('select-shout');
-      $('.select-tally').removeClass('sselect-tally');
+      updateSelected();
       appendDom(); }
     else {
       index=0;
+      updateSelected();
       appendDom(); }
   });
   $(".container").on("click", "#prevButton", function movePrev() {
-    if (index>min) { index--; appendDom(); }
-    else { index=18; appendDom(); }
+    if (index>min) {
+      index--;
+      updateSelected();
+      appendDom();
+    }
+    else {
+      index=18;
+      updateSelected();
+      appendDom();
+    }
   });
 
+}
+
+function updateSelected() {
+  $('.select-name').fadeOut();
+  $('.select-shout').fadeOut();
+  $('.select-tally').fadeOut();
+  $('.select-name').removeClass('select-name');
+  $('.select-shout').removeClass('select-shout');
+  $('.select-tally').removeClass('select-tally');
 }
