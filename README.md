@@ -13,7 +13,6 @@ What I would like to see on the DOM, is
 [x] When a person is displayed, show their name (first & last) and their shout out. Only one person should be shown at any given time.
 
 Possible look for the final application:
-
 http://i.imgur.com/9Dkkrci.png
 
 ###HARD MODE
