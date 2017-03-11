@@ -1,6 +1,6 @@
-var i = 1;
+var i = 0;
 var max = 18;
-var min = 1;
+var min = 0;
 var divArray = [];
 
 $(document).ready(function() {
@@ -13,7 +13,7 @@ function appendDom() {
   $(".container").children().hide();
   $(".container").append("<h1>" + peopleArray[i].name + "<h1>");
   $(".container").append("<h2>" + peopleArray[i].shoutout + "<h2>");
-  $(".container").append("<h2> Chiyak " + i + "/18<h2>");
+  $(".container").append("<h2> Chiyak " + (i+1) + "/19<h2>");
   makeTickers();
   lightTicker();
   $(".container").append("<br><button id='prevButton'>Prev</button>");
@@ -21,7 +21,7 @@ function appendDom() {
 }
 
 function makeTickers() {
-  for(var k = 1; k < max+1; k++){
+  for(var k = 0; k < max+1; k++){
     $(".container").append("<div class='square noLit'></div>");
     var $el = $(".container").children().last();
     $el.data("id", k);
@@ -46,7 +46,7 @@ function addEventListener() {
       i++;
       appendDom();
     } else {
-      i=1;
+      i=0;
       appendDom();
     }
   });
