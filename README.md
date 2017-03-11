@@ -20,4 +20,5 @@ http://i.imgur.com/9Dkkrci.png
 [] Include a fade out and fade in animation in-between transitioning people.
 
 ###PRO MODE
-[] Include a timer that moves to the next person if the user is not clicking on next or prev. If the user clicks on next or prev, the timer should be reset. The timer should transition between people every 10 seconds.
+[] Include a timer that moves to the next person if the user is not clicking on next or prev.
+[] If the user clicks on next or prev, the timer should be reset. The timer should transition between people every 10 seconds.
