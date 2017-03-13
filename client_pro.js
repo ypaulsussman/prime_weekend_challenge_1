@@ -1,5 +1,5 @@
 var index = 0;
-var max = 18;
+var max = peopleArray.length-1;
 var min = 0;
 var divArray = [];
 var autoNext;
