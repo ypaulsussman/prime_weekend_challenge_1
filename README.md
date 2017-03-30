@@ -1,4 +1,4 @@
-#Weekend Challenge 01
+# Weekend Challenge 01
 
 Welcome to your first-weekend challenge!
 
@@ -6,18 +6,23 @@ We have created a Javascript file that has an array of Objects. Each one of you 
 
 What I would like to see on the DOM, is
 [x] one person at a time represented by showing their name and their shout out.
+
 [x] On the screen should also be "Prev" and "Next" buttons, that
+
 [x] when pressed, show the information for the next or previous person.
+
 [x] These should wrap - "prev" when on the first person should wrap around to show the last person and vice versa.
+
 [x] Also on the DOM should be a display showing the number of people and which is being currently viewed (eg. "2/20")
+
 [x] When a person is displayed, show their name (first & last) and their shout out. Only one person should be shown at any given time.
 
 Possible look for the final application:
 http://i.imgur.com/9Dkkrci.png
 
-###HARD MODE
+### HARD MODE (Stretch Goal 1)
 [x] Include a fade out and fade in animation in-between transitioning people.
 
-###PRO MODE
+### PRO MODE (Stretch Goal 2)
 [x] Include a timer that moves to the next person if the user is not clicking on next or prev.
 [x] If the user clicks on next or prev, the timer should be reset. The timer should transition between people every 10 seconds.
