@@ -4,7 +4,8 @@ Welcome to your first-weekend challenge!
 
 We have created a Javascript file that has an array of Objects. Each one of you is represented as an object with some shout out feedback given to you by your peers! Awesome right?
 
-What I would like to see on the DOM, is
+What I would like to see on the DOM, is...
+
 [x] one person at a time represented by showing their name and their shout out.
 
 [x] On the screen should also be "Prev" and "Next" buttons, that
